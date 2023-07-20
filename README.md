@@ -53,4 +53,12 @@ storm.recon.hdobs.plot_points()
 storm.recon.hdobs.plot_hovmoller()
 ```
 
+```
+#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
+#storm.recon.plot_maps(dt(2020,10,6,18),varname=('pkwnd','p_sfc'),
+#                      prop={'cmap':mycmap,'levels':np.arange(0,161,10)},radlim=150,window=4,align='end')
+storm.recon.hdobs.plot_maps()
+```
+
+
 
