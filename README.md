@@ -41,24 +41,7 @@ storm = basin.get_storm(('Delta',2020))
 storm.get_recon()
 ```
 
-```
-#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
-#storm.recon.plot_points(varname='pkwnd',prop={'cmap':mycmap,'levels':(0,160)})
-storm.recon.hdobs.plot_points()
-```
+Changed rcon.plot with rcon.hdobs.plot
 
-```
-#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
-#storm.recon.plot_hovmoller(prop={'cmap':mycmap,'levels':np.arange(0,161,10)})
-storm.recon.hdobs.plot_hovmoller()
-```
-
-```
-#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
-#storm.recon.plot_maps(dt(2020,10,6,18),varname=('pkwnd','p_sfc'),
-#                      prop={'cmap':mycmap,'levels':np.arange(0,161,10)},radlim=150,window=4,align='end')
-storm.recon.hdobs.plot_maps()
-```
-
-
+Tornadoes didn't work, but they will work after you pull my change of error_bad_lines to on_bad_lines.
 
