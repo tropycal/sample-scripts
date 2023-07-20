@@ -31,4 +31,4 @@ AMS 34th Conference on Hurricanes and Tropical Meteorology, 10 – 14 May 2021 V
 - The tornados parts do not work because of deprecated pd.read argument, but I submitted a pull request with the fix.
 
 **Warning**:
-- This last Notebook gets pretty close to Binder's limit of 4GB RAM, so it gets very slow.  It will be better on your local computer. 
+- This last Notebook gets pretty close to Binder's limit of 4GB RAM, so it gets very slow.  We recommend using Jupyter Notebook locally by using miniconda to create an environment for tropycal+Notebook.  A YAML file for creating the environment is included in this repo: ***env_tropycal.yml***.
