@@ -26,5 +26,19 @@ Notes:
 #storms = basin.filter_storms(thresh={'dv_min':90,'dt_window':36},doInterp=True)
 storms = basin.filter_storms(thresh={'dv_min':90,'dt_window':36},interpolate_data=True)
 ```
-This Notebook gets pretty close to Binder's limit of 4GB RAM when it is doing the allbasins part, and it is super slow.
+This Notebook gets pretty close to Binder's limit of 4GB RAM, It because of that it gets slow.
+
+
+```
+#storm.plot_gefs_ensembles(forecast = dt(2018,9,7,12), fhr = [84])
+storm.plot_ensembles(forecast = dt(2018,9,7,12), fhr = [84])
+```
+
+This repo does not have the file `delta_recon`, and it didn't recognize `read_path` anyway.
+```
+storm = basin.get_storm(('Delta',2020))
+#storm.get_recon(read_path="delta_recon") #Here we are reading from a saved file to save time
+storm.get_recon()
+```
+
 
