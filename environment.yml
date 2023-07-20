@@ -11,4 +11,3 @@ dependencies:
   - pyshp >= 2.1
   - cartopy >= 0.17.0
   - tropycal
-  - wget
