@@ -22,8 +22,9 @@ AMS 34th Conference on Hurricanes and Tropical Meteorology, 10 – 14 May 2021 V
 
 Notes:
 ```
-#Add "doInterp=True" to interpolate storm data linearly to hourly
+#Change doInterp to interpolate_data
 #storms = basin.filter_storms(thresh={'dv_min':90,'dt_window':36},doInterp=True)
 storms = basin.filter_storms(thresh={'dv_min':90,'dt_window':36},interpolate_data=True)
 ```
+This Notebook gets pretty close to Binder's limit of 4GB RAM when it is doing the allbasins part, and it is super slow.
 
