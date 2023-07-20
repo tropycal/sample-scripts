@@ -1,7 +1,7 @@
 # sample-scripts
 Sample scripts for Tropycal usage
 
-Click on the Binder button to open the Notebook:
+Click on a Binder button to open a Notebook.  Binder will start a Jupyter Lab starting at the chosen Notebook, but the other labs will also be available during the session.  (You can find them by clicking the folder icon in the grey left nav bar.)
 
 ## v0.3
 - Storm Plotting Tools, with Michael(2018)
