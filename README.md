@@ -41,4 +41,16 @@ storm = basin.get_storm(('Delta',2020))
 storm.get_recon()
 ```
 
+```
+#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
+#storm.recon.plot_points(varname='pkwnd',prop={'cmap':mycmap,'levels':(0,160)})
+storm.recon.hdobs.plot_points()
+```
+
+```
+#mycmap = {0:'w',20:'dodgerblue',60:'gold',100:'firebrick',160:'violet'}
+#storm.recon.plot_hovmoller(prop={'cmap':mycmap,'levels':np.arange(0,161,10)})
+storm.recon.hdobs.plot_hovmoller()
+```
+
 
