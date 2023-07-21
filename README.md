@@ -22,5 +22,4 @@ AMS 34th Conference on Hurricanes and Tropical Meteorology, 10 – 14 May 2021 V
 
 ## Notes
 - In v0.5, Realtime Recon will give errors if there are no active missions.  Just click to the next cell.
-- The tornados parts do not work as of July 20, 2023 because of deprecated pd.read argument.  The fix is coming soon.
 - The **Tropycal, AMS** Notebook gets pretty close to Binder's limit of 4GB RAM, so it gets very slow.  We recommend using Jupyter Notebook locally by using miniconda to create an environment for tropycal+Notebook.  A YAML file for creating the environment is included in this repo: ***env_tropycal.yml***.
